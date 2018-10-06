@@ -82,7 +82,21 @@ syntax enable
 
 colorscheme OceanicNext
 
-
 "Other
 set number
+set nowrap        " don't wrap lines
+set tabstop=2     " a tab is two spaces
+set backspace=indent,eol,start " allow backspacing over everything in insert mode
+" todo remap esc On Mac OS X, with help of the software Karabiner, my caps lock key bound to ESC if I press and release. If i hold the same button it works as CTRL.
+set autoindent    " always set autoindenting on
+set copyindent    " copy the previous indentation on autoindenting
+set shiftwidth=2  " number of spaces to use for autoindenting
+set shiftround    " use multiple of shiftwidth when indenting with '<' and '>'
+"Search
+set showmatch     " set show matching parenthesis
+set ignorecase    " ignore case when searching
+set smartcase     " ignore case if search pattern is all lowercase, case sensitive otherwise
+set smarttab      " insert tabs on the start of a line according to shiftwide, not tabstop
+set hlsearch      " highlight search terms
+set incsearch     " show search matches as you type
 filetype plugin indent on

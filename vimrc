@@ -15,6 +15,7 @@ Plug 'SirVer/ultisnips'
 Plug 'scrooloose/nerdtree'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
+Plug 'elzr/vim-json'
 Plug 'mattn/emmet-vim'
 Plug 'https://github.com/ctrlpvim/ctrlp.vim.git'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
@@ -35,7 +36,7 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 nnoremap ; :
 
 "UltiSnips
-"let g:UltiSnipsExpandTrigger="<tab>"
+"let g:UltiSnipsExpandTrigger="<tab>" "don't use tab is using ycm
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 

@@ -14,6 +14,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 "Plug 'mattn/emmet-vim'
+Plug 'https://github.com/ctrlpvim/ctrlp.vim.git'
 
 call plug#end()
 
@@ -24,6 +25,10 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 "Nerd Tree
 map <C-n> :NERDTreeToggle<CR>
+
+"CtrlP
+set runtimepath^=~/.vim/plugged/ctrlp.vim
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|ico|git|svn))$'
 
 "Emmet vim
 "let g:user_emmet_install_global = 0

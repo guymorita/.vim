@@ -15,7 +15,7 @@ Plug 'SirVer/ultisnips'
 Plug 'scrooloose/nerdtree'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
-"Plug 'mattn/emmet-vim'
+Plug 'mattn/emmet-vim'
 Plug 'https://github.com/ctrlpvim/ctrlp.vim.git'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
 Plug 'w0rp/ale'
@@ -53,14 +53,17 @@ let g:ycm_min_num_identifier_candidate_chars = 4
 let g:ycm_enable_diagnostic_highlighting = 0
 
 "Emmet vim
-"let g:user_emmet_install_global = 0
+let g:user_emmet_install_global = 0
 "let g:user_emmet_leader_key='<Tab>'
-"let g:user_emmet_settings = {
-"  \  'javascript.jsx' : {
-"    \      'extends' : 'jsx',
-"    \  },
-"  \}
-"autocmd FileType html,css,javascript.jsx EmmetInstall
+let g:user_emmet_settings = {
+  \  'javascript.jsx' : {
+    \      'extends' : 'jsx',
+    \      'quote_char': "'",
+    \  },
+  \}
+autocmd FileType html,css,jsx,javascript.jsx EmmetInstall
+"autocmd FileType html,css imap <TAB> <plug>(emmet-expand-abbr)
+
 
 "Ale / EsLint
 let g:ale_sign_error = '●' " Less aggressive than the default '>>'

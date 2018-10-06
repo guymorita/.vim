@@ -63,7 +63,7 @@ let g:ale_fixers = {
 \}
 " Set this variable to 1 to fix files when you save them.
 let g:ale_fix_on_save = 1
-
+nmap <leader>d <Plug>(ale_fix)
 
 "vim-javascript
 let g:javascript_plugin_flow = 1

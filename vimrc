@@ -18,6 +18,7 @@ Plug 'mxw/vim-jsx'
 "Plug 'mattn/emmet-vim'
 Plug 'https://github.com/ctrlpvim/ctrlp.vim.git'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
+Plug 'w0rp/ale'
 
 call plug#end()
 
@@ -48,5 +49,22 @@ let g:ycm_enable_diagnostic_highlighting = 0
 "  \}
 "autocmd FileType html,css,javascript.jsx EmmetInstall
 
+"Ale / EsLint
+let g:ale_sign_error = '●' " Less aggressive than the default '>>'
+let g:ale_sign_warning = '.'
+let g:ale_lint_on_enter = 0 " Less distracting when opening a new file
+
+"vim-javascript
+let g:javascript_plugin_flow = 1
+
+"vim-jsx
+let g:jsx_ext_required = 0
+
+"Color Scheme
+colorscheme Slate 
+
+
+"Other
+set number
 filetype plugin indent on
 

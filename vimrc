@@ -31,6 +31,9 @@ let mapleader=","
 nmap <silent> <leader>ev :e ~/.vim/vimrc<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
+" Key remappings
+nnoremap ; :
+
 "UltiSnips
 "let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"

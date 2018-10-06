@@ -23,6 +23,7 @@ Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
 Plug 'w0rp/ale'
 Plug 'mhartington/oceanic-next'
 Plug 'Yggdroot/indentLine'
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 

@@ -108,4 +108,6 @@ set smartcase     " ignore case if search pattern is all lowercase, case sensiti
 set smarttab      " insert tabs on the start of a line according to shiftwide, not tabstop
 set hlsearch      " highlight search terms
 set incsearch     " show search matches as you type
+set noswapfile
+
 filetype plugin indent on

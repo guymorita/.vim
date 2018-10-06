@@ -15,10 +15,12 @@ Plug 'SirVer/ultisnips'
 Plug 'scrooloose/nerdtree'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
+Plug 'maxmellon/vim-jsx-pretty'
 "Plug 'mattn/emmet-vim'
 Plug 'https://github.com/ctrlpvim/ctrlp.vim.git'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
 Plug 'w0rp/ale'
+Plug 'mhartington/oceanic-next'
 
 call plug#end()
 
@@ -61,8 +63,9 @@ let g:javascript_plugin_flow = 1
 let g:jsx_ext_required = 0
 
 "Color Scheme
-colorscheme Slate 
+syntax enable
 
+colorscheme OceanicNext
 
 "Other
 set number

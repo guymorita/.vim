@@ -43,6 +43,7 @@ let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 "Nerd Tree
+let NERDTreeShowHidden=1
 map <C-n> :NERDTreeToggle<CR>
 
 "CtrlP

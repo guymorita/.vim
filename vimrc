@@ -22,8 +22,14 @@ Plug 'w0rp/ale'
 Plug 'mhartington/oceanic-next'
 Plug 'Yggdroot/indentLine'
 
-
 call plug#end()
+
+" change the mapleader from \ to ,
+let mapleader=","
+
+" Quickly edit/reload the vimrc file
+nmap <silent> <leader>ev :e ~/.vim/vimrc<CR>
+nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
 "UltiSnips
 "let g:UltiSnipsExpandTrigger="<tab>"
@@ -80,4 +86,3 @@ colorscheme OceanicNext
 "Other
 set number
 filetype plugin indent on
-

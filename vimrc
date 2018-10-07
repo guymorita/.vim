@@ -58,7 +58,6 @@ let g:ycm_enable_diagnostic_highlighting = 0
 
 "Emmet vim
 let g:user_emmet_install_global = 0
-"let g:user_emmet_leader_key='<Tab>'
 let g:user_emmet_settings = {
   \  'javascript.jsx' : {
     \      'extends' : 'jsx',
@@ -66,8 +65,6 @@ let g:user_emmet_settings = {
     \  },
   \}
 autocmd FileType html,css,jsx,javascript.jsx EmmetInstall
-"autocmd FileType html,css imap <TAB> <plug>(emmet-expand-abbr)
-
 
 "Ale / EsLint
 let g:ale_sign_error = '●' " Less aggressive than the default '>>'

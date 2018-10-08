@@ -25,6 +25,7 @@ Plug 'mhartington/oceanic-next'
 Plug 'Yggdroot/indentLine'
 Plug 'jiangmiao/auto-pairs'
 Plug 'airblade/vim-gitgutter'
+Plug 'terryma/vim-multiple-cursors'
 
 call plug#end()
 
@@ -89,6 +90,13 @@ let g:jsx_ext_required = 0
 syntax enable
 
 colorscheme OceanicNext
+
+"Multiple cursors
+let g:multi_cursor_use_default_mapping = 0
+let g:multi_cursor_start_word_key      = 'S'
+let g:multi_cursor_next_key            = 'S'
+let g:multi_cursor_skip_key            = 'K'
+let g:multi_cursor_quit_key            = '<Esc>'
 
 "Other
 set number relativenumber

@@ -90,7 +90,7 @@ syntax enable
 colorscheme OceanicNext
 
 "Other
-set number
+set number relativenumber
 set nowrap        " don't wrap lines
 set tabstop=2     " a tab is two spaces
 set backspace=indent,eol,start " allow backspacing over everything in insert mode

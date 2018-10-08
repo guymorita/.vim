@@ -26,6 +26,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'jiangmiao/auto-pairs'
 Plug 'airblade/vim-gitgutter'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 call plug#end()
 

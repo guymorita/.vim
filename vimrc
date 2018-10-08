@@ -38,7 +38,7 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 nnoremap ; :
 
 "UltiSnips
-let g:UltiSnipsExpandTrigger="<tab>" "don't use tab is using ycm
+let g:UltiSnipsExpandTrigger="<c-l>" "don't use tab is using ycm
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 

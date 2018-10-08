@@ -24,6 +24,7 @@ Plug 'w0rp/ale'
 Plug 'mhartington/oceanic-next'
 Plug 'Yggdroot/indentLine'
 Plug 'jiangmiao/auto-pairs'
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 

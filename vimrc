@@ -27,6 +27,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'airblade/vim-gitgutter'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'tacahiroy/ctrlp-funky'
 
 call plug#end()
 
@@ -98,6 +99,12 @@ let g:multi_cursor_start_word_key      = 'S'
 let g:multi_cursor_next_key            = 'S'
 let g:multi_cursor_skip_key            = 'K'
 let g:multi_cursor_quit_key            = '<Esc>'
+
+"Ctrlp funky
+nnoremap <Leader>fu :CtrlPFunky<Cr>
+" narrow the list down with a word under cursor
+nnoremap <Leader>fU :execute 'CtrlPFunky ' . expand('<cword>')<Cr>
+
 
 "Other
 set number relativenumber

@@ -1,5 +1,3 @@
-filetype off                  " required
-
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -125,5 +123,3 @@ set smarttab      " insert tabs on the start of a line according to shiftwide, n
 set hlsearch      " highlight search terms
 set incsearch     " show search matches as you type
 set noswapfile
-
-filetype plugin indent on

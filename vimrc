@@ -28,6 +28,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tacahiroy/ctrlp-funky'
+Plug 'tpope/vim-surround'
 
 call plug#end()
 

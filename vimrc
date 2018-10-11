@@ -26,7 +26,9 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tacahiroy/ctrlp-funky'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-fugitive'
 Plug 'mhinz/vim-signify'
+Plug 'jreybert/vimagit'
 
 call plug#end()
 

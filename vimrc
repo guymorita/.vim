@@ -22,11 +22,11 @@ Plug 'w0rp/ale'
 Plug 'mhartington/oceanic-next'
 Plug 'Yggdroot/indentLine'
 Plug 'jiangmiao/auto-pairs'
-Plug 'airblade/vim-gitgutter'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tacahiroy/ctrlp-funky'
 Plug 'tpope/vim-surround'
+Plug 'mhinz/vim-signify'
 
 call plug#end()
 
@@ -48,6 +48,10 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 "Nerd Tree
 let NERDTreeShowHidden=1
 map <C-n> :NERDTreeToggle<CR>
+
+"Signify
+let g:signify_vcs_list = [ 'git', 'hg' ]
+let g:signify_realtime = 1
 
 "CtrlP
 set runtimepath^=~/.vim/bundle/ctrlp.vim
